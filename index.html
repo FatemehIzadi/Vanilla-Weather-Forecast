@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/src/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <div>
+          <div>
+            <div class="weather-app-main">
+              <div class="clearfix">
+                <form class="float-left">
+                  <input
+                    id="city-inp"
+                    class="city"
+                    type="search"
+                    placeholder="Enter a City..."
+                    autocomplete="off"
+                  />
+                  <button
+                    id="search-button"
+                    type="submit"
+                    class="btn btn-primary"
+                  >
+                    Search
+                  </button>
+                  <button id="current-button" class="btn btn-warning">
+                    Current
+                  </button>
+                </form>
+              </div>
+              <div class="nyc">
+                <div class="row nyc-head">
+                  <div class="row col-sm-6">
+                    <p id="city-name"></p>
+                    <p class="col-sm-8" id="day-time">
+                      <span id="day"></span>
+                      <span id="time"></span>
+                    </p>
+                  </div>
+
+                  <div class="col-sm-6 float-left">
+                    <img
+                      src="http://openweathermap.org/img/wn/10d@2x.png"
+                      id="weather-icon"
+                      alt="icon"
+                      class="float-left"
+                      width="70"
+                    />
+                    <span id="weather-description"></span>
+                  </div>
+                </div>
+                <div class="row nyc-temp">
+                  <div class="float-left col-sm-6">
+                    <div class="weather-emoji">
+                      <span id="city-temp"></span>
+                      <button id="metric" class="unit">°C</button>
+                      |
+                      <button id="imperial" class="unit">°F</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div id="humidity"></div>
+                    <div id="wind-speed"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="weather-forecast" id="forecast"></div>
+          </div>
+        </div>
+        <br />
+        <small>
+          <a
+            href="https://github.com/FatemehIzadi/Vanilla-Weather"
+            target="_blank"
+            >Code</a
+          >
+          by Fatemeh.I.
+        </small>
+      </div>
+    </div>
+
+    <script src="/src/index.js"></script>
+  </body>
+</html>
