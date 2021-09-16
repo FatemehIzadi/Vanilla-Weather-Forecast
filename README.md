@@ -1,4 +1,4 @@
-# Vanilla-Weather
-Added unit conversion, changed colors and tidied up main code from [weather-app](https://github.com/FatemehIzadi/Weather-App "weather-app repo"), hosted by netlify [here](https://clever-goldwasser-a6f1a0.netlify.app/ "netlify-hosted app").
+# Vanilla-Weather-Forecast
+Added unit conversion, changed colors and tidied up main code from [weather-app](https://github.com/FatemehIzadi/Vanilla-Weather "vanilla-weather repo"), hosted by netlify [here](https://determined-poincare-d05a4f.netlify.app/ "netlify-hosted app").
 
-![alt text](https://uploads.codesandbox.io/uploads/user/746338c6-c473-402e-a707-20924db5a20c/7Z-8-NYC.PNG?raw=true)
+![alt text](https://github.com/FatemehIzadi/Vanilla-Weather-Forecast/blob/8413d3492ae4346768382ff991152bad15a6c18d/NYC.PNG?raw=true)
