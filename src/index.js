@@ -4,18 +4,27 @@ let city = "New York";
 let country = "US";
 let weatherDescription = "Clear";
 let weekdays = [
+  "Sunday",
   "Monday",
   "Tuesday",
   "Wednesday",
   "Thursday",
   "Friday",
-  "Saturday",
-  "Sunday"
+  "Saturday"
 ];
 
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
-  let day = weekdays[date.getDay()];
+  let days = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+  ];
+  let day = days[date.getDay()];
   return day.substring(0, 3);
 }
 
